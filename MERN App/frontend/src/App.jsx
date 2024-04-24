@@ -1,12 +1,19 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import ChatHome from './ChatHome.jsx'
+import Navbar from './Navbar.jsx' 
+import Instructions from './Instructions.jsx'
 import './App.css'
+
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<ChatHome />} />
-    </Routes>
+    <div>
+        <Navbar />
+          <Routes>
+            <Route path="/" element={<ChatHome />} />
+            <Route path="/instructions" element={<Instructions />} />
+          </Routes>
+    </div>
     </BrowserRouter>
    
   )
