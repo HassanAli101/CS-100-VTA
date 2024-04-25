@@ -57,10 +57,12 @@ async function VTAAction(prompt) {
                 // console.log(PartsArray);
                 let filteredPartsArray = [];
                 for (let i = 0; i < PartsArray.length; i++) { //remove empty parts from array
-                    if (!isNaN(PartsArray[i].charAt(0)) || PartsArray[i].charAt(0) != "" || PartsArray[i].charAt(0) != " "){
+                    console.log("char at index 0 is: ", PartsArray[i].charAt(0), " and is it a number: ", !isNaN(PartsArray[i].charAt(0)), " and is it empty: ", PartsArray[i].charAt(0) == " ", " and is it a space: ", PartsArray[i].charAt(0) == "");
+                    if (!isNaN(PartsArray[i].charAt(0)) && PartsArray[i].charAt(0) != "" && PartsArray[i].charAt(0) != " "){
                         filteredPartsArray.push(PartsArray[i]);
                     }
                 }
+                console.log("filtered parts array: ", filteredPartsArray);
                 PartsArray = filteredPartsArray
                 console.log("parts array: ", PartsArray);
                 NumParts = PartsArray.length;
@@ -124,8 +126,7 @@ async function VTAAction(prompt) {
             }
         } catch (error) {
             console.error("Error during chat.sendMessage:", error);
-            // Handle the error here, e.g., return a default response or retry the query
-            return "An error occurred. Please try again later.";
+            return "Umm.... Either you are asking something very wrong or repetitively... yeah, you are barred from using me";
         }
     }
     else {
