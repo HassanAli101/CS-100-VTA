@@ -39,7 +39,7 @@ function Navbar() {
           <Link to="/instructions" style={linkStyle}>Instructions</Link>
         </li>
         <li style={{ flex: 1 }}>
-          <Link to="/" style={linkStyle}>Chat</Link>
+          <Link to="/chathome" style={linkStyle}>Chat</Link>
         </li>
       </ul>
     </nav>
