@@ -1,0 +1,184 @@
+Problem,Parts
+Write a program in C++ to print the first 5 numbers on a new line,"1)Iterate through the numbers, accumulate their sum, and print each number 2) Initializing the Loop:  A for loop has a starting point for the counter variable. 3) Loop Condition: The loop continues as long as a certain condition remains true. 4) Updating the Counter:  The loop keeps track of its progress by modifying the counter variable in each iteration. 5)Printing Numbers: Inside the loop, we use cout to print the current value of the counter variable."
+Write a program in C++ to print the first n natural numbers on the same line,"1)Implement a loop to calculate the sum of the first n odd natural numbers, printing each number  2)Initializing the Loop: Start the loop counter from 1.  3) Loop Condition: Continue the loop until the loop counter reaches n. 4) Updating the Counter: Increment the loop counter in each iteration. 5)Printing Numbers: Inside the loop, use cout to print the current value of the loop counter."
+"Write a program in C++ to print the first n natural numbers on the same line, where n is taken as an input from the user.","1) : Prompt the user for input, then implement a loop to print the first n natural numbers separated by spaces. 2)Input: Use cin to prompt the user to enter the value of n. 3) Initializing the Loop: Start the loop counter from 1. 4) Loop Condition: Continue the loop until the loop counter reaches n. 5) Updating the Counter: Increment the loop counter in each iteration. 6)Printing Numbers: Inside the loop, use cout to print the current value of the loop counter followed by a space."
+"write a c++ program to find the sum of the first n numbers, where n will be provided by the user","1) Prompt the user for input, then implement a loop to calculate the sum of the first n natural numbers. 2)Input: Use cin to prompt the user to enter the value of n. 3)Initializing the Loop: Start the loop counter from 1.
+4) Loop Condition: Continue the loop until the loop counter reaches n.
+5) Updating the Counter: Increment the loop counter in each iteration.
+6) Sum Calculation: Inside the loop, add the current value of the loop counter to a variable storing the sum."
+write a c++ program to print the first 10 multiplication tables of 26 using a nested loops,"1) Iterate through a loop from 1 to 10 to calculate and print the multiplication results of 26 2) Loop: Iterate from 1 to 10 to calculate and print the multiplication results.
+3) Multiplication Calculation: Inside the loop, calculate the multiplication of 26 with the current number.
+4) Printing Multiplication Table: Print the multiplication table in a formatted manner."
+"
+write a program in c++ to take in 10 numbers from the user as input and print their average","1.  Import the iostream library for input and output operations, prompt the user for 10 numbers, calculate their sum and average, and print the average.
+2. Library: Import the iostream library to enable input and output operations.
+3. Variable Declaration: Declare variables to store each number entered by the user and the sum of the numbers.
+4. Input Prompt: Use cout to prompt the user to enter 10 numbers one by one.
+5. Input Processing: Inside a loop, use cin to read each number entered by the user and add it to the sum.
+6. Sum Calculation: Sum up the 10 numbers entered by the user.
+7. Average Calculation: Divide the sum by 10 to find the average.
+8. Output: Use cout to print the average of the 10 numbers.
+"
+write a c++ program to write an infinite loop that only ends if 'q' is typed by the user,"1.  Continuously read character input from the user using a while loop until 'q' is typed to end the program.
+2. Input Processing: Inside a while loop, use cin to read a character input from the user.
+3. Loop Condition: Set the condition of the while loop to true to create an infinite loop.
+4. Check for 'q': Inside the loop, check if the input character is 'q'.
+5. End Loop: If the input character is 'q', break out of the loop to end the program."
+10. Write a program in C++ to find the sum of the digits of a given number. ,"1.  Prompt the user to enter a number, extract each digit from the number, calculate the sum of the digits, and print the sum.
+2. Input: Prompt the user to enter a number.
+3. Variable Declaration: Declare variables to store the given number, individual digits, and the sum of the digits.
+4. Digit Extraction: Inside a while loop, extract each digit from the number using modulo (%) and division (/) operations.
+5. Sum Calculation: Sum up the extracted digits to calculate the total sum.
+6. Output: Print the sum of the digits."
+Find the Product of Digits of a Given Number,"1)  Calculate the product of the digits of a predefined number and print the result. This involves extracting each digit from the number, multiplying them together, and displaying the product. 2)Predefined Number: Assign a predefined number to a variable. 3)Variable Declaration: Declare variables to store the predefined number, individual digits, and the product of the digits. 4)Digit Extraction: Inside a while loop, extract each digit from the number using modulo (%) and division (/) operations. 5)Product Calculation: Multiply the extracted digits to calculate the total product. 6)Output: Print the product of the digits."
+Count the Number of Digits in a Given Number,"1) Determine the number of digits in a predefined number and print the result. This involves counting the digits by repeatedly dividing the number by 10 and incrementing a counter until the number becomes 0. 2)Predefined Number: Assign a predefined number to a variable. 3) Variable Declaration: Declare variables to store the predefined number and a counter for the number of digits. 4) Digit Counting: Inside a while loop, repeatedly divide the number by 10 and increment the counter until the number becomes 0. 5)Output: Print the count of digits."
+Check if a Given Number is a Palindrome,"1)  Reverse a predefined number and compare it with the original to determine if it's a palindrome. 2) Predefined Number: Assign a predefined number to a variable. 3) Variable Declaration: Declare variables to store the predefined number and its reversed version. 4) Number Reversal: Inside a while loop, reverse the number by extracting each digit and building the reversed number. 5)Check for Palindrome: Compare the original number with its reversed version to determine if it's a palindrome. 6)Output: Print whether the number is a palindrome or not."
+Reverse a Given Number,"1)  Reverse the predefined number by extracting each digit and building the reversed number inside a while loop. Then print the reversed number. 2)Predefined Number: Assign a predefined number to a variable. 3)Variable Declaration: Declare variables to store the predefined number and its reversed version. 4)Number Reversal: Inside a while loop, reverse the number by extracting each digit and building the reversed number. 5)Output: Print the reversed number."
+Write a C++ program that displays the sum of n odd natural numbers. ,"1) Calculate the sum of n odd natural numbers in C++ by iterating through the odd numbers up to the nth odd number and adding each to the sum. Print the sum as output.
+2) Initializing Variables: Declare a variable to store the sum of the odd numbers.
+3) Loop to Calculate Sum: Use a loop to iterate through the odd numbers up to the nth odd number.
+4) Sum Calculation: Inside the loop, add each odd number to the sum variable.
+5) Output: Print the sum of the odd numbers."
+Write a C++ program that uses nested loops and a break statement to find the first occurrence(the index) of a specific value in a two-dimensional array.,"1)  use nested loops to traverse the array elements, employing a break statement to exit the loop upon finding the target value, and printing the index of the first occurrence if found, or a message indicating its absence.
+2) Initializing Array: Declare and initialize a two-dimensional array.
+3) Initializing Target Value: Declare and initialize the target value to be searched.
+4) Nested Loops: Use nested loops to iterate through each element of the array.
+5) Break Statement: Use a break statement to exit the loop when the target value is found.
+6) Output: Print the index of the first occurrence of the target value if found, or a message indicating that the value was not found."
+"Given an array of numbers, print all the numbers. If a negative number is encountered, it should be skipped.","1) iterate through each element of the array, checking for negative numbers, and skipping them using the continue statement to proceed to the next iteration without printing. Non-negative numbers are printed as usual.
+2) Loop through Array: Iterate through each element of the array.
+3) Check for Negative Numbers: Use an if statement to determine if the current element is negative.
+4) Skip Negative Numbers: If the element is negative, use continue to move to the next iteration without printing.
+5) Print Numbers: If the element is not negative, print it."
+Write a C++ program that generates and prints 10 random numbers between 1 and 10 ,"1) Include necessary libraries. This means importing libraries such as cstdlib(for rand and srand) and ctime(for time). 
+2) Seed the random number generator to ensure that the random number generated is different each time the program is run. 
+3) Use rand library to randomly generate a number between 1 and 10. 
+4) Use a for loop to print these numbers.   "
+Write a C++ program that generates a random lowercase letter.,"1)Include necessary libraries: Import libraries such as cstdlib (for rand()) and ctime (for time()).
+
+2)Seed the random number generator: Ensure that the random number generated is different each time the program is run by seeding the random number generator using srand(time(nullptr)).
+
+3)Generate a random number representing ASCII value: Use rand() to generate a random number between 97 and 122, which are the ASCII values for lowercase letters 'a' and 'z', respectively.
+
+4)Convert ASCII value to character: Convert the generated random number to its corresponding character using typecasting.
+
+5)Print the random lowercase letter: Print the generated random lowercase letter."
+Write a program to print the sum of two numbers entered by user by defining your own function.,"1) Define a function that takes two parameters (representing the two numbers).
+2) Inside the function, add the two numbers together.
+3) Return the sum.
+4) Prompt the user to enter two numbers.
+5) Store the user inputs in variables.
+6) Call the function with the user inputs as arguments.
+7) Print the returned sum."
+Define a function that returns the product of two numbers entered by user.,"1. Define a function `multiplyNumbers` with two parameters for the numbers to be multiplied.
+2. Inside the function, multiply the two numbers together.
+3. Return the product as the output of the function.
+4. Prompt the user to enter two numbers.
+5. Call the `multiplyNumbers` function with the user inputs as arguments.
+6. Print the returned product, which is the result of multiplying the two user-entered numbers."
+Write a program to print the circumference and area of a circle of radius entered by user by defining your own function.,"1) Define a function that takes the radius of a circle as a parameter.
+2) Inside the function, calculate the circumference and area using the provided radius.
+3) Return both the circumference and area as output from the function.
+4) Prompt the user to enter the radius of the circle.
+5) Receive the input from the user.
+6) Call the defined function with the radius as an argument.
+7) Print the calculated circumference and area."
+Define two functions to print the maximum and the minimum number respectively among three numbers entered by user.,"1. Define a function to find the maximum number among three user-entered numbers.
+2. Define another function to find the minimum number among the three numbers.
+3. Each function will take three parameters representing the three numbers.
+4. Inside each function, compare the numbers to determine the maximum or minimum value.
+5. Return the maximum or minimum number as output from each function.
+6. Prompt the user to enter three numbers.
+7. Receive the inputs from the user.
+8. Call the maximum function and the minimum function with the user inputs as arguments.
+9. Print the returned maximum and minimum values."
+Define a program to find out whether a given number is even or odd.,"1. Define a function that takes a number as a parameter.
+2. Inside the function, check if the number is divisible by 2.
+3. If the number is divisible by 2, print that the number is even.
+4. If the number is not divisible by 2, print that the number is odd.
+5. Prompt the user to enter a number.
+6. Receive the input from the user.
+7. Call the defined function with the user input as an argument.
+8. Print the result indicating whether the number is even or odd."
+A person is elligible to vote if his/her age is greater than or equal to 18. Define a function to find out if he/she is elligible to vote.,"1. Define a function that takes the age of a person as a parameter.
+2. Inside the function, check if the age is greater than or equal to 18.
+3. If the age is greater than or equal to 18, print that the person is eligible to vote.
+4. If the age is less than 18, print that the person is not eligible to vote.
+5. Prompt the user to enter their age.
+6. Receive the input from the user.
+7. Call the defined function with the user input as an argument.
+8. Print the result indicating whether the person is eligible to vote."
+Define a function to find out if number is prime or not.,"1. Define a function that takes a number as a parameter.
+2. Inside the function, iterate from 2 to the square root of the number and check for divisibility.
+3. If the number is divisible by any number in the range, return false indicating it's not prime.
+4. If the number is not divisible by any number in the range, return true indicating it's prime.
+5. Prompt the user to enter a number.
+6. Receive the input from the user.
+7. Call the defined function with the user input as an argument.
+8. Print the result indicating whether the number is prime or not."
+"Write a program which will ask the user to enter his/her marks (out of 100). Define a function that will display grades according to the marks entered as below:
+Marks        Grade
+91-100         AA
+81-90          AB
+71-80          BB
+61-70          BC
+51-60          CD
+41-50          DD
+<=40          Fail","1. Prompt the user to enter their marks out of 100.
+2. Define a function named ""displayGrades"" that takes the marks as input.
+3. Inside the function, determine the grade based on predefined ranges by comparing the marks.
+4. After receiving the marks from the user, call the ""displayGrades"" function with the user's input as an argument.
+5. Print the grade calculated by the function."
+"Write a program to print the factorial of a number by defining a function named 'Factorial'.
+Factorial of any number n is represented by n! and is equal to 1*2*3*....*(n-1)*n. E.g.-
+4! = 1*2*3*4 = 24
+3! = 3*2*1 = 6
+2! = 2*1 = 2
+Also,
+1! = 1
+0! = 0","1. Create a program to calculate the factorial of a number.
+2. Define a function called ""Factorial"" that takes the number as input.
+3. Inside the function, compute the factorial according to the given formula.
+4. Prompt the user to enter a number.
+5. Receive the input from the user.
+6. Call the ""Factorial"" function with the user's input as an argument.
+7. Print the factorial calculated by the function."
+"Write a C++ program that takes two integer values as input from the user, passes them to a function called swapNumbers by reference, and then swaps the values inside the function. Finally, the program should print the swapped values.","1. Prompt the user to input two integer values.
+2. Define a function named ""swapNumbers"" that accepts two integer parameters by reference.
+3. Inside the function, use temporary variables to store the values of the integers passed by reference.
+4. Swap the values of the temporary variables to effectively swap the values of the original integers.
+5. Return to the main program after the swap operation inside the function.
+6. Print out the swapped values to the console.
+7. This way, the original variables that were passed by reference will now hold the swapped values.
+8. Print the swapped values to the console, allowing the user to see the result of the swapping operation."
+"Write a C++ program that calculates the sum and product of two user-entered numbers using a function called calculateSumAndProduct, which takes two integer parameters by reference and updates their values accordingly.","1. Prompt the user to input two integer values.
+2. Define a function named ""calculateSumAndProduct"" that accepts two integer parameters by reference.
+3. Inside this function, calculate both the sum and product of the two integers provided as input.
+4. Use the parameters passed by reference to update their values to hold the sum and product, respectively.
+5. Upon completing the calculation within the function, return to the main program.
+6. At this point, the original variables passed by reference will contain the calculated sum and product values.
+7. Print both the sum and product to the console, allowing the user to observe the results of the calculations.
+8. This method ensures that the original variables are updated with the sum and product values without the need to explicitly return them from the function."
+"Write a C++ program that demonstrates the difference between accessing a global variable and a local variable with the same name inside a function. The program should declare a global variable and a function that declares a local variable with the same name. Inside the function, print both the global and local variables. Then, call the function and observe the output.","1. Declare a global variable with a specific name.
+2. Define a function within the program scope that declares a local variable with the same name as the global variable.
+3. Inside this function, print both the global and local variables to observe their values.
+4. Upon calling this function, the output will demonstrate the difference between accessing the global variable and the local variable within the function.
+5. Specifically, observe that the local variable takes precedence within its scope, thus shadowing the global variable with the same name.
+6. This behavior showcases the concept of variable scoping in C++, where local variables within a function have precedence over global variables with the same name.
+7. Through this demonstration, effectively highlight the distinction between accessing global and local variables with identical names within a function context."
+Write a Python program that uses a global variable to keep track of the number of times a function is called. Define a function that increments the global variable each time it is called and prints the current count. Test the function by calling it multiple times from different parts of the program.,"1. Declare a global variable to track the number of times a function is called.
+2. Define a function that increments this global variable each time it's called and prints the current count.
+3. Utilize the `global` keyword within the function to access and modify the global variable within its scope.
+4. Test this function by calling it multiple times from various parts of the program.
+5. Observe how the global variable's value changes with each invocation to verify its functionality.
+6. This setup demonstrates the usage of global variables in Python to maintain state across function calls.
+7. Showcases how functions can interact with and modify global variables effectively.
+8. Through testing, verify that the function successfully increments the global variable and prints the updated count upon each call, thus effectively tracking the number of function invocations throughout the program."
+"Write a c++ program that demonstrates nested scopes in functions. Define a global variable and a function that declares a local variable with the same name. Inside the function, declare another local variable with the same name as the first one. Print all three variables to observe their values. Then, call the function and observe the output.","1. Declare a global variable to illustrate nested scopes in C++.
+2. Define a function that declares a local variable with the same name as the global variable.
+3. Within this function, declare another local variable with the same name as the first one to demonstrate nested scopes.
+4. Print all three variables inside the function to observe their values.
+5. This step helps in understanding the concept of nested scopes in C++.
+6. Upon calling this function from the main program, observe the output to see the hierarchical nature of variable scopes in C++.
+7. Specifically, observe that the innermost local variable shadows the outer local variable, which in turn shadows the global variable.
+8. Through this demonstration, effectively illustrate how variables in C++ are resolved within nested scopes, with inner scopes taking precedence over outer scopes when accessing variables with identical names."
