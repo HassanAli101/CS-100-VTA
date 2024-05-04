@@ -1,0 +1,13 @@
+pypdf2
+langchain
+sentence_transformers
+faiss-gpu
+faiss-cpu
+transformers
+accelerate
+torch
+peft
+bitsandbytes
+trl
+tiktoken
+gradio
