@@ -6,7 +6,7 @@ This project aims to cultivate algorithmic thinking and problem-solving skills a
 We have curated a dataset of coding exercises, which serves as the foundation for our project. Our dataset for finetuning attempts can be accessed [here](https://docs.google.com/spreadsheets/d/1czTl1hxHkFfG6WsNWMGKEt0sZ7DftyNATBS0fS_JyCY/edit?usp=sharing). These sets are sourced from reputable platforms like [W3Resource](https://www.w3resource.com/cpp-exercises/#google_vignette), covering a range of topics in programming languages like C++.
 
 ### Paper Reference
-To guide our project and methodologies, we are replicating the paper titled "[CodeHelp](https://arxiv.org/pdf/2401.11314.pdf)" This paper provides valuable insights and frameworks for developing effective educational tools to promote algorithmic thinking and problem-solving skills.
+To guide our project and methodologies, we are replicating the paper titled "[CodeAid](https://arxiv.org/pdf/2401.11314.pdf)" This paper provides valuable insights and frameworks for developing effective educational tools to promote algorithmic thinking and problem-solving skills.
 
 ## Our Success and Efforts
 
